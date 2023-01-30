@@ -1,0 +1,18 @@
+Git Ignore
+--> To ignore a file with .log 
+To create a file in linux
+touch error.log
+Run git status.
+You do not want error.log file to be tracked. So you make a .gitignore file and write the error.log file in it. 
+touch .gitignore
+Now run git status.
+
+Hence, whatever file name or dir names you add in .gitignore file, those file and folders will be ignored.
+
+--> To ignore all files with .log
+add *.log to .gitignore
+--> To ignore a folder with a particular name say 'dir'
+add dir/ to .gitignore
+--> To ignore a outer folder 'dir'
+add /dir/ to .gitignore
+
