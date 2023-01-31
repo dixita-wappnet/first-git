@@ -1,2 +1,2 @@
-# First-Git
+# first-git
 Dixita 
